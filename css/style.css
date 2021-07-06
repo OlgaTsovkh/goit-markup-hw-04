@@ -461,10 +461,13 @@ p {
   background: var(--footer-bgr);
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
   
-  
+  /*align-items: baseline;*/
 }
-
+.placing {
+  display: flex;
+}
 .main-contact {
   margin-top: 20px;
   
@@ -492,11 +495,6 @@ p {
 .footer-contact {
   color: var(--footer-link-color);
 }
-.footer-social-list {
-  width: 206px;
-  display: flex-inline;
-
-}
 
 .join-us {
 font-weight: bold;
@@ -507,10 +505,14 @@ text-transform: uppercase;
 margin-bottom: 20px;
 
 color: #FFFFFF;
-margin-top: 72px;
-
 }
 
+.footer-social-list {
+  width: 206px;
+  margin-left: 70px;
+  margin-top: 12px;
+  /*align-items: baseline;*/
+}
 .footer-social-list-link {
   display: flex;
   align-items: center;
@@ -520,8 +522,9 @@ margin-top: 72px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);;
   fill: #FFFFFF;
-    
+  
 }
+
 
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
