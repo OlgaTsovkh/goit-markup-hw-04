@@ -261,7 +261,7 @@ p {
   display: block;
   width: 270px;
   height: 120px;
-  background-color: #F5F4FA;
+  background-color: var(--our-team-bgr);
   background-size: 70px 70px;
   background-repeat: no-repeat;
 
@@ -394,7 +394,7 @@ p {
   height: 20px;
   align-content: center;
   justify-content: center;
-  /*fill:  #AFB1B8;*/
+  
 }
 
 .social-list-link {
@@ -404,14 +404,14 @@ p {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: #FFFFFF;
+  background: var(--accent-content-color);
   fill:  #AFB1B8;
     
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
-  fill: #FFFFFF;
+  fill: var(--accent-content-color);
   background-color: var(--accent-color);
 }
 
@@ -465,12 +465,13 @@ p {
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
-  
-  /*align-items: baseline;*/
-}
+  }
+
 .placing {
   display: flex;
+  align-items: baseline;
 }
+
 .main-contact {
   margin-top: 20px;
   
@@ -507,14 +508,14 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-bottom: 20px;
 
-color: #FFFFFF;
+color: var(--accent-content-color);
 }
 
 .footer-social-list {
   width: 206px;
   margin-left: 70px;
-  margin-top: 12px;
-  /*align-items: baseline;*/
+  
+  
 }
 .footer-social-list-link {
   display: flex;
@@ -524,7 +525,7 @@ color: #FFFFFF;
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);;
-  fill: #FFFFFF;
+  fill: var(--accent-content-color);
   
 }
 
@@ -600,11 +601,12 @@ color: #FFFFFF;
 }
 .projects-list-item:focus,
 .projects-list-item:hover{
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);v
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-projects {
-  display: block;
+
+  display:block;
 }
 
 .card-description {
